@@ -1,11 +1,11 @@
 bee=int(input())
-length=le(str(bee))
+length=len(str(bee))
 su=0
-tem=A
-while(tem!=0) and (A<=100000):
+tem=bee
+while(tem!=0) and (bee<=100000):
    su=su+((tem%10)**length)
    tem=tem//10
-if su==A:
+if su==bee:
     print("yes")
 else:
     print("no")

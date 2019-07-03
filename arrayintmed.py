@@ -1,4 +1,4 @@
 c=int(input())
 u=list(map(int,input().split()))
-p=sorted(u)
-print(p[int(len(p)/2)])
+l=sorted(u)
+print(l[int(len(l)/2)])
